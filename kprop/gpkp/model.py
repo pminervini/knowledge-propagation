@@ -15,8 +15,8 @@ class GaussianProcessKnowledgePropagation(GaussianFields):
     def __init__(self, L, y, mu, R, eta, eps):
         """
         Gaussian Process Knowledge Propagation, as described in [1]
-        [1] P Minervini et al. - Discovering Similarity and Dissimilarity Relations for Knowledge Propagation
-            in Web Ontologies - International Conference on Data Mining (ICDM) 2014
+        [1] P Minervini et al. - A Gaussian Process Model for Knowledge Propagation in Web Ontologies -
+            International Conference on Data Mining (ICDM) 2014
 
         :param L: Theano tensor
             N-length {0, 1} integer vector, where L_i = 1 iff the i-th instance is labeled, and 0 otherwise.
